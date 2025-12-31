@@ -113,10 +113,10 @@ The team claims full ownership of the implementation, integration, and documenta
  ├── ## Flowchart TB
      [text](<diagrams/Flowchart TB.md>)
  ├── ## System Flowchart
-     ![System Flowchart](diagrams/Logicflowchart.png)
+     ![System Flowchart](<diagrams/Logic flowchart.png>)
 
 ├── ## Data Flow Diagram
-     ![DFD](diagrams/DFD.png)
+     ![DFD](<diagrams/DFD.png>)
 
 /prototype
  ├── ## prototype
@@ -127,6 +127,7 @@ The team claims full ownership of the implementation, integration, and documenta
 /Source code
  ├── ## Source Code
   [ESP32 Arduino Code](code/esp32_self_healing_automation.ino)
+
 
 
 
