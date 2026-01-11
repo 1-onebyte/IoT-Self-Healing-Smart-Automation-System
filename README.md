@@ -33,15 +33,15 @@ This design ensures robust operation even under network loss.
 
 code/
 
- ├── main.ion
+ ├── [Main.ino](<code/Main.ino>)
 
- ├── sensor_manager.h
+ ├── [sensor_manager.ino](<code/Sensor_Manager.ino>)
  
- ├── fault_detector.h
+ ├── [Fault_detector.ino](<code/Fault_detector.ino>)
  
- ├── recovery_engine.h
+ ├── [recovery_engine.h.ino](<safety-logic/recovery_engine.h.ino>)
  
- ├── overload_guard.h
+ ├── [overload_guard.h](<safety-logic/overload_guard.h>)
  
  ├── [network_manager.h.ino](<data-logging/network_manager.h.ino>)
  
@@ -118,6 +118,7 @@ All core design and implementation were created by the team.
 | Member 4 | Data logging & network handling     |
 
 ---
+
 
 
 
