@@ -33,6 +33,8 @@ This design ensures robust operation even under network loss.
 
 code/
 
+ ├── main.ion
+
  ├── sensor_manager.h
  
  ├── fault_detector.h
@@ -116,6 +118,7 @@ All core design and implementation were created by the team.
 | Member 4 | Data logging & network handling     |
 
 ---
+
 
 
 
