@@ -156,3 +156,12 @@ Inspired by fault‑tolerance principles, this system’s architecture, classifi
 
 ---
 
+## Recovery Mapping Table
+
+| Fault Detected | Module | Recovery Action |
+|---------------|--------|-----------------|
+| Sensor timeout | fault_detector | Reinitialize sensor |
+| Overload | overload_guard | Safe shutdown + restart |
+| Network loss | network_manager | Local-only mode |
+
+---
