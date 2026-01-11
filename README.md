@@ -34,42 +34,67 @@ This design ensures robust operation even under network loss.
 code/
  
  ├── main.ino
+ 
  ├── config.h
+ 
  ├── sensor_manager.h
+ 
  ├── fault_detector.h
+ 
  ├── recovery_engine.h
+ 
  ├── overload_guard.h
+ 
  ├── [network_manager.h.ino](<data-logging/network_manager.h.ino>)
+ 
  ├── [ESP32 Arduino Code](code/esp32_self_healing_automation.ino)
  
  diagrams/
  
  ├── [DFD_Level_0.jpeg](<core-architecture/DFD_Level_0.jpeg>)
+ 
  ├── [DFD_Level_1.jpeg](<core-architecture/DFD_Level_1.jpeg>)
+ 
  ├── [NORMAL MODE.jpeg](<data-logging/NORMAL MODE.jpeg>)
+ 
  ├── [SENSOR FAILURE.jpeg](<data-logging/SENSOR FAILURE.jpeg>)
+ 
  ├── [HEALTH SCORE.jpeg](<data-logging/HEALTH SCORE.jpeg>)
+ 
  ├── [System Flowchart](<diagrams/Logic flowchart.png>)
+ 
  ├── [DFD](<diagrams/DFD.png>)
+ 
  ├── [Logic flowchart.png](<diagrams/Logic flowchart.png>)
 
 docs/
 
  ├── [SYSTEM_ARCHITECTURE_DIAGRAM..md](<core-architecture/SYSTEM_ARCHITECTURE_DIAGRAM..md>)
+ 
  ├── [DFD_level_0.md](<core-architecture/DFD_level_0.md>)
+ 
  ├── [DFD_level_1.md](<core-architecture/DFD_level_1.md>)
+ 
  ├── [DATABASE_SCHEMA.md](<core-architecture/DATABASE_SCHEMA.md>)
+ 
  ├── [System_Architecture.md](<core-architecture/System_Architecture.md>)
+ 
  ├── [network_handling.md](<data-logging/network_handling.md>)
+ 
  ├── [ Flowchart TB.md](<diagrams/Flowchart TB.md>)
+ 
  ├── [overload_protection.md](<safety-logic/overload_protection.md>)
+ 
  ├── [recovery_engine.md](<safety-logic/recovery_engine.md>)
 
 Prototype/
 
  ├──[Wokwi Simulation](https://wokwi.com/projects/451695512973784065)
+
  ├── [NORMAL MODE.jpeg](<data-logging/NORMAL MODE.jpeg>)
+ 
  ├── [SENSOR FAILURE.jpeg](<data-logging/SENSOR FAILURE.jpeg>)
+ 
  ├── [HEALTH SCORE.jpeg](<data-logging/HEALTH SCORE.jpeg>)
 
 ---
@@ -95,5 +120,6 @@ All core design and implementation were created by the team.
 | Member 4 | Data logging & network handling     |
 
 ---
+
 
 
