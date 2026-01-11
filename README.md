@@ -119,9 +119,40 @@ All core design and implementation were created by the team.
 
 ---
 
+### Mapping Architecture to Implementation
 
+Each architectural component directly maps to a source module.
 
+- Fault Monitoring Unit → `fault_detector.h`
+- Recovery Action Engine → `recovery_engine.h`
+- Network Handling → `network_manager.ino`
+- Safety Logic → `overload_guard.h`
+  
+This ensures traceability from design to code.
 
+---
 
+## How to Run
 
+1. Clone the repository
+2. Open code in **Arduino IDE**
+3. Install ESP32 board support
+4. Upload `main.ino` to ESP32
+5. Open Serial Monitor at `115200`
+
+---
+
+## Limitations & Future Work
+
+- Currently uses rule‑based classification
+- Can be extended with learning‑based fault prediction
+- More hardware redundancy can be added
+
+---
+
+## Originality & Attribution
+
+Inspired by fault‑tolerance principles, this system’s architecture, classification logic, and recovery strategy are **original and team‑designed**. No external implementation has been copied.
+
+---
 
