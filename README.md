@@ -119,6 +119,14 @@ All core design and implementation were created by the team.
 
 ---
 
+### Mapping to Code
+- Sensor Input → sensor_manager.h
+- Fault Detection → fault_detector.h
+- Recovery Actions → recovery_engine.h
+- Logging → data_logger.h
+
+---
+
 ### Mapping Architecture to Implementation
 
 Each architectural component directly maps to a source module.
@@ -129,6 +137,16 @@ Each architectural component directly maps to a source module.
 - Safety Logic → `overload_guard.h`
   
 This ensures traceability from design to code.
+
+---
+
+## How to Run the Project
+1. Open the Wokwi simulation link
+2. Start the simulation
+3. Trigger faults by:
+   - Disconnecting sensors
+   - Simulating overload conditions
+4. Observe autonomous recovery behavior in Serial Monitor
 
 ---
 
@@ -165,3 +183,4 @@ Inspired by fault‑tolerance principles, this system’s architecture, classifi
 | Network loss | network_manager | Local-only mode |
 
 ---
+
