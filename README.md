@@ -32,6 +32,7 @@ This design ensures robust operation even under network loss.
 ##  Repository Structure
 
 code/
+
  ├── sensor_manager.h
  
  ├── fault_detector.h
@@ -45,6 +46,7 @@ code/
  ├── [ESP32 Arduino Code](code/esp32_self_healing_automation.ino)
  
  diagrams/
+ 
  ├── [DFD_Level_0.jpeg](<core-architecture/DFD_Level_0.jpeg>)
  
  ├── [DFD_Level_1.jpeg](<core-architecture/DFD_Level_1.jpeg>)
@@ -62,6 +64,7 @@ code/
  ├── [Logic flowchart.png](<diagrams/Logic flowchart.png>)
 
 docs/
+
  ├── [SYSTEM_ARCHITECTURE_DIAGRAM..md](<core-architecture/SYSTEM_ARCHITECTURE_DIAGRAM..md>)
  
  ├── [DFD_level_0.md](<core-architecture/DFD_level_0.md>)
@@ -81,6 +84,7 @@ docs/
  ├── [recovery_engine.md](<safety-logic/recovery_engine.md>)
 
 Prototype/
+
  ├──[Wokwi Simulation](https://wokwi.com/projects/451695512973784065)
 
  ├── [NORMAL MODE.jpeg](<data-logging/NORMAL MODE.jpeg>)
@@ -112,6 +116,7 @@ All core design and implementation were created by the team.
 | Member 4 | Data logging & network handling     |
 
 ---
+
 
 
 
