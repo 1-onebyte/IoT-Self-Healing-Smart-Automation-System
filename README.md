@@ -160,6 +160,38 @@ This ensures traceability from design to code.
 
 ---
 
+## Recovery Mapping Table
+
+| Fault Detected | Module | Recovery Action |
+|---------------|--------|-----------------|
+| Sensor timeout | fault_detector | Reinitialize sensor |
+| Overload | overload_guard | Safe shutdown + restart |
+| Network loss | network_manager | Local-only mode |
+
+---
+
+## Fault Handling Validation
+
+| Fault Scenario | Expected Action | Result |
+|---------------|----------------|--------|
+| Sensor disconnect | Reinitialize sensor | Passed |
+| Overload detected | Safe shutdown + restart | Passed |
+| Network loss | Local-only mode | Passed |
+
+---
+
+## Design to Implementation Mapping
+
+| Design Component | Source File |
+|------------------|------------|
+| Sensor Monitoring | sensor_manager.h |
+| Fault Detection | fault_detector.h |
+| Recovery Engine | recovery_engine.h |
+| Overload Protection | overload_guard.h |
+| Network Handling | network_manager.ino |
+
+---
+
 ## Limitations & Future Work
 
 - Currently uses rule‑based classification
@@ -174,13 +206,6 @@ Inspired by fault‑tolerance principles, this system’s architecture, classifi
 
 ---
 
-## Recovery Mapping Table
 
-| Fault Detected | Module | Recovery Action |
-|---------------|--------|-----------------|
-| Sensor timeout | fault_detector | Reinitialize sensor |
-| Overload | overload_guard | Safe shutdown + restart |
-| Network loss | network_manager | Local-only mode |
 
----
 
